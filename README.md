@@ -14,10 +14,11 @@ The following functions are used in the chatbot:
 - `tokenize_n_filter(word_lst)`: This function tokenizes the text and filters out the punctuations from the text.
 - `lemmatize(text)`: This function lemmatizes the text or sentence with the Spacy library's "en_core_web_sm" model.
 - `bag_of_words(tokenized_sentence, all_words)`: This function converts the user's message to a bag-of-words encoded vector.
+- also some extra functions are also included.
 
 ## Usage
 
-To use CYBRIX, simply run the `main.py` file and start chatting with the bot. The bot will predict the class or tag of your message and respond with a random response from the "intents.json" file.
+To use CYBRIX, simply run the `chat.py` file and start chatting with the bot. The bot will predict the class or tag of your message and respond with a random response from the "intents.json" file.
 
 ## Limitations
 
