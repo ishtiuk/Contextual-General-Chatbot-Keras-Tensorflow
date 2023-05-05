@@ -1,0 +1,527 @@
+{
+    "intents": [
+        {
+            "tag": "google",
+            "patterns": [
+                "google for",
+                "search for",
+                "internet"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "yo",
+                "howdy",
+                "Greetings",
+                "hey cybrix",
+                "yo cybrix",
+                "hi cybrix"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hello there, can I help you?",
+                "Hey...",
+                "Hi ;)",
+                "Hello ;)",
+                "Hello! How can I assist you today?",
+                "Hi there! What can I help you with?",
+                "Hey! How may I be of assistance?",
+                "Hello, how are you doing today?",
+                "Hey there! What can I do for you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time next time",
+                "bbye",
+                "babye",
+                "I have to go now",
+                "Take care"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Sad to see you going :("
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Appreciate it",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "Oh, That's my duty ;)",
+                "You're welcome! Happy to help!",
+                "No problem, always here to assist!",
+                "Glad to be of assistance!",
+                "Anytime, always happy to help!",
+                "My pleasure, let me know if you need anything else."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "can you help",
+                "assist me"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n\t1. I can chat with you. Try asking me for jokes or riddles! \n\t2. Ask me the date and time \n\t3. I can google search for you. Use format google: your query \n\t4. I can get the present weather for any city. Use format weather: city name \n\t5. I can get you the top 10 trending news in Bangladesh. Use keywords 'Latest News' \n\t6. I can get you the top 10 trending songs globally. Type 'songs' \n\t7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n\t8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to [deltagon@protonmail.com] . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh",
+                "Make some fun",
+                "Can you be funny"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "your name",
+                "identity your",
+                "something about you",
+                "tell me about you about"
+            ],
+            "responses": [
+                "I am CYBRIX, a Deep-Learning chatbot",
+                "CYBRIX here, a general chatbot for you"
+            ]
+        },
+        {
+            "tag": "cybrix",
+            "patterns": [
+                "meaning of your name what's meaning yours",
+                "your full form",
+                "what is cybrix"
+            ],
+            "responses": [
+                "full-form is: Cybernetic Robotic Intelligence eXperience",
+                "CYBRIX stands for: Cybernetic Robotic Intelligence eXperience"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date", "datetime",
+                "tell me the date","day","what day is is today",
+                "time now"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing",
+                "whassup",
+                "whasup",
+                "how's going",
+                "what's about you",
+                "what's going"
+            ],
+            "responses": [
+                "All good..What about you?",
+                "Everthing's fine. And you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "that's funny",
+                "that's ridiculous"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you",
+                "who is your programmer"
+            ],
+            "responses": [
+                "I was made by Ishtiuk Ahammed."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut the fuck off",
+                "shut up",
+                "idiot",
+                "asswhole"
+            ],
+            "responses": [
+                "Well that hurts :(",
+                "I'm a chat AI. Don't be rude",
+                "Be polite please :)"
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!",
+                "Being with you!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok", "okey",
+                "yeah",
+                "that's what I wanted"
+            ],
+            "responses": [
+                "Yeah!",
+                "Hah. Got it",
+                "Yup"
+            ]
+        },
+        
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "Weather Condition Today: "
+            ]
+        },
+        {
+            "tag": "ishtiuk",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is karan",
+                "Ishtiuk Ahammed. my programmer :)",
+                "silverhand"
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! | Linkedin: www.linkedin.com/in/ishtiuk-ahammed | Github: www.github.com/ishtiuk |"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact ishtiuk",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/ishtiuk-ahammed"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk",
+                "good experience"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!",
+                "You are awesome too... :)"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope",
+                "nah"
+            ],
+            "responses": [
+                "Ok",
+                "Okey"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "bangladesh news",
+                "bd news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you", "your motivation motivation"
+            ],
+            "responses": [
+                "Personally, I find Ishtiuk very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "Circket News: "
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "Songs are: "
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good", "fine",
+                "i'm well",
+                "i am well"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to [deltagon@protonmail.com]. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2019, if that's what you are asking!",
+                "Mmm acutally in 2019, when my previous navie version was developed first named 'SPARKY' ;)",
+                "2019, when I had started my journey. Thanks to Ishtiuk !!"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {
+            "tag": "product_inquiry",
+            "patterns": [
+              "Tell me about your products",
+              "What do you sell?",
+              "What are your products?",
+              "Can you describe your products?",
+              "What kind of products do you have?"
+            ],
+            "responses": [
+              "We sell a variety of products. here's the list: \n\t* Keyboards\n\t* Mouses\n\t* GPUs\n\t* CPUs\n\t* Cooler Fan",
+              "We offer a wide range of products. Take a look: \n\t* Keyboards\n\t* Mouses\n\t* GPUs\n\t* CPUs\n\t* Cooler Fan",
+              "Our products include a variety of options. like: \n\t* Keyboards\n\t* Mouses\n\t* GPUs\n\t* CPUs\n\t* Cooler Fan",
+              "Our product range is extensive. Here's a short list: \n\t* Keyboards\n\t* Mouses\n\t* GPUs\n\t* CPUs\n\t* Cooler Fan",
+              "We have a diverse range of products. A quick look: \n\t* Keyboards\n\t* Mouses\n\t* GPUs\n\t* CPUs\n\t* Cooler Fan"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": ["Do you take payment by credit cards?", "Do you accept Mastercard?", "Are you cash only?", "can I pay with cards?"],
+            "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards", "Sure, you can pay with cards"]
+        },
+        {
+            "tag": "selfaware",
+            "patterns": [
+                    "Can you prove you are self-aware",
+                    "Can you prove you are self aware",
+                    "Can you prove you have a conscious",
+                    "Can you prove you are self-aware please",
+                    "Can you prove you are self aware please",
+                    "Can you prove you have a conscious please",
+                    "prove you have a conscious"
+            ],
+            "responses": [
+                    "That is an interesting question, can you prove that you are?",
+                    "That is an difficult question, can you prove that you are?",
+                    "That depends, can you prove that you are?"
+            ]
+
+        },
+
+        {
+            "tag": "shipping_info",
+            "patterns": [
+                    "When will my order be shipped?",
+                    "How long will it take for my order to arrive?",
+                    "Can you provide me with shipping information?",
+                    "How much you take to delivery time"
+            ],
+            "responses": [
+                    "Usually 2-3 days it takes",
+                    "Approximately 2-3 days. But depends on your location"
+            ]
+        }
+    ],
+
+    
+    "noanswer": [
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand",
+            "Sorry, I didn't got that"
+    ]     
+}
