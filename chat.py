@@ -3,6 +3,7 @@ import pickle
 import random
 import webbrowser
 import numpy as np
+from textblob import TextBlob
 from datetime import datetime
 from keras.models import load_model
 from nlp_utility import lemmatize, tokenize_n_filter, bag_of_words
@@ -39,7 +40,7 @@ def chatting():
 
 
   while run:
-    usr_inp = tokenize_n_filter(lemmatize(input("\nYou    : ")))
+    usr_inp = tokenize_n_filter(lemmatize(TextBlob(input("\nYou    : ")).correct().string))
 
     bag = bag_of_words(usr_inp, all_words).reshape((1, num_cols))
     probs = model.predict(bag, verbose=0)
